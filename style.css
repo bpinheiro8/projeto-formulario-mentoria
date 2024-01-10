@@ -1,0 +1,49 @@
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Staatliches', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #efefef;
+}
+
+body::before {
+  content: "";
+  background: #535971;
+  height: 436px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.wrapper {
+  width: 1084px;
+  min-height: 300px;
+  margin: auto;
+}
+
+.wrapper h1 {
+  font-family: "Staatliches", sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: normal;
+  padding-top: 140px;
+}
+
+.wrapper p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: normal;
+  padding: 18px 0 58px 0;
+}
+
+.wrapper-info-pessoal input {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mentoria</title>
     <link rel="shortcut icon" href="./assets/brain.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <h1>Mentoria</h1>
-      <p>Preencha o formulário abaixo para <br />agendar a sua mentoria</p>
-    </header>
-    <main>
-      <form>
-        <legend>Informações pessoais</legend>
-      </form>
-    </main>
+    <form>
+      <div class="wrapper">
+        <h1>Mentoria</h1>
+        <p>Preencha o formulário abaixo para <br />agendar a sua mentoria</p>
+
+        <fieldset class="wrapper-info-pessoal">
+          <legend>INFORMAÇÕES PESSOAIS</legend>
+
+          <label for="event-name">Nome</label>
+          <input type="text" id="event-name" />
+
+          <label for="event-lastname">Sobrenome</label>
+          <input type="text" id="event-lastname" />
+
+          <label for="event-email">Email<span>(digite um email válido)</span></label>
+          <input type="email" id="event-email" />
+
+          <label for="event-password">Senha<span>(mínimo de 6 caracteres)</span></label>
+          <input type="password" id="event-password" />
+        </fieldset>
+      </div>
+    </form>
   </body>
 </html>
