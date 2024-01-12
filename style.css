@@ -46,7 +46,7 @@ header p {
   padding: 18px 0 58px 0;
 }
 
-main {
+form {
   background: #ffffff;
   border-radius: 20px 20px 0 0;
   padding: 64px;
@@ -65,7 +65,7 @@ fieldset.info-pessoal {
   line-height: 34px;
   font-weight: normal;
   color: #535971;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
   border-bottom: 1px solid #e6e6f0;
   width: 100%;
 }
