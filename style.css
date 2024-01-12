@@ -6,6 +6,7 @@ font-family: 'Staatliches', sans-serif;
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -73,7 +74,6 @@ fieldset.info-pessoal {
   line-height: 24px;
   color: #4e4958;
   font-weight: normal;
-  margin: 0 64px 0;
 }
 
 .info-pessoal input {
@@ -87,7 +87,6 @@ fieldset.info-pessoal {
   padding: 0 10px 0;
   border-radius: 8px;
   display: flex;
-  margin: 0 64px 0;
 }
 
 .info-pessoal input:focus {
@@ -95,15 +94,11 @@ fieldset.info-pessoal {
   outline: none;
 }
 
-#event-name,
-#event-lastname {
+.info-name {
   display: flex;
-  flex-direction: row;
   gap: 22px;
-  width: 300px;
 }
 
-#event-email,
-#event-password {
-  width: 600px;
+.info-name > div {
+  width: 100%;
 }
