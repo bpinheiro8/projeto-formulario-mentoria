@@ -17,31 +17,33 @@
         <p>Preencha o formulário abaixo para <br />agendar a sua mentoria</p>
       </header>
       <form>
-        <fieldset class="info-pessoal">
+        <fieldset>
           <legend>INFORMAÇÕES PESSOAIS</legend>
-
+          <!--Parei aqui-->
           <div class="input-info">
             <label for="event-name">Nome</label>
-            <input type="text" id="event-name" />
+            <input type="text" id="event-name" required minlength="3" />
           </div>
 
           <div class="input-info">
             <label for="event-lastname">Sobrenome</label>
-            <input type="text" id="event-lastname" />
+            <input type="text" id="event-lastname" required minlength="3" />
           </div>
 
           <div class="input-info">
             <label for="event-email">Email<span>(digite um email válido)</span></label>
-            <input type="email" id="event-email" />
+            <input type="email" id="event-email" required />
           </div>
 
           <div class="input-info">
             <label for="event-password">Senha<span>(mínimo de 6 caracteres)</span></label>
-            <input type="password" id="event-password" />
+            <input type="password" id="event-password" required />
           </div>
         </fieldset>
       </form>
-      <footer></footer>
+      <footer>
+        <input type="submit" value="SALVAR" />
+      </footer>
     </div>
   </body>
 </html>
