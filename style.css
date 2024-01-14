@@ -66,6 +66,14 @@ legend {
   width: 100%;
 }
 
+.col2 {
+  margin-top: 20px;
+}
+
+.info-name-lastname label {
+  margin: 16px 0 8px;
+}
+
 .input-info {
   display: flex;
   flex-direction: column;
@@ -114,8 +122,8 @@ legend {
   width: 100%;
 }
 
-.col2 .input-info {
-  margin-top: 36px;
+.info-mentor {
+  margin-top: 30px;
 }
 
 legend.first {
