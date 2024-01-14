@@ -17,17 +17,18 @@
         <p>Preencha o formulário abaixo para <br />agendar a sua mentoria</p>
       </header>
       <form>
-        <fieldset>
+        <fieldset class="info-name-lastname">
           <legend>INFORMAÇÕES PESSOAIS</legend>
-          <!--Parei aqui-->
-          <div class="input-info">
-            <label for="event-name">Nome</label>
-            <input type="text" id="event-name" required minlength="3" />
-          </div>
+          <div class="col2">
+            <div class="input-info">
+              <label for="event-name">Nome</label>
+              <input type="text" id="event-name" required minlength="3" />
+            </div>
 
-          <div class="input-info">
-            <label for="event-lastname">Sobrenome</label>
-            <input type="text" id="event-lastname" required minlength="3" />
+            <div class="input-info">
+              <label for="event-lastname">Sobrenome</label>
+              <input type="text" id="event-lastname" required minlength="3" />
+            </div>
           </div>
 
           <div class="input-info">
@@ -38,6 +39,56 @@
           <div class="input-info">
             <label for="event-password">Senha<span>(mínimo de 6 caracteres)</span></label>
             <input type="password" id="event-password" required />
+          </div>
+        </fieldset>
+
+        <fieldset class="info-mentor">
+          <legend>INFORMAÇÕES DO MENTOR</legend>
+          <div class="input-info">
+            <label for="event-namementor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+            <input type="text" id="event-namementor" required minlength="3" />
+          </div>
+        </fieldset>
+
+        <fieldset id="info-clock">
+          <legend>Seus horários disponíveis</legend>
+
+          <legend class="first">Primeira mentoria</legend>
+
+          <div class="col3">
+            <div class="input-info">
+              <label for="event-date1">Data <span>((DD/MM/AAAA))</span></label>
+              <input type="date" id="event-date1" required />
+            </div>
+
+            <div class="input-info">
+              <label for="event-das1">Das</label>
+              <input type="time" id="event-das1" required />
+            </div>
+
+            <div class="input-info">
+              <label for="event-ate1">Até</label>
+              <input type="time" id="event-ate1" required />
+            </div>
+          </div>
+
+          <legend class="first">Segunda mentoria</legend>
+
+          <div class="col3">
+            <div class="input-info">
+              <label for="event-date2">Data <span>((DD/MM/AAAA))</span></label>
+              <input type="date" id="event-date2" required />
+            </div>
+
+            <div class="input-info">
+              <label for="event-das2">Das</label>
+              <input type="time" id="event-das2" required />
+            </div>
+
+            <div class="input-info">
+              <label for="event-ate2">Até</label>
+              <input type="time" id="event-ate2" required />
+            </div>
           </div>
         </fieldset>
       </form>
