@@ -190,4 +190,20 @@ footer {
 }
 
 footer input {
+  width: 608px;
+  height: 55.65px;
+  border-radius: 20px;
+  border: 0;
+  background: #ff5374;
+  margin: 52.67px 71px 51.68px;
+  color: #ffffff;
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+footer input:hover {
+  background: #f33158;
 }
