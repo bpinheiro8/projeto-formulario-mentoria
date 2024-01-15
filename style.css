@@ -49,7 +49,7 @@ header p {
 form {
   background: #ffffff;
   border-radius: 20px 20px 0 0;
-  padding: 64px;
+  padding: 64px 64px 48px;
 }
 
 fieldset {
@@ -64,18 +64,28 @@ legend {
   color: #535971;
 }
 
-.line {
+.line1 {
   border-bottom: 1px solid #e6e6f0;
   width: 100%;
-  margin-top: 8px;
+  margin-top: 16px;
 }
 
 .col2 {
+  display: flex;
+  gap: 22px;
   margin-top: 20px;
 }
 
+.col2 div {
+  width: 100%;
+}
+
 .info-name-lastname label {
-  margin: 16px 0 8px;
+  margin-bottom: 8px;
+}
+
+.info-name-lastname input {
+  margin-bottom: 16px;
 }
 
 .input-info {
@@ -117,21 +127,41 @@ legend {
   margin-left: 9.12px;
 }
 
-.col2 {
-  display: flex;
-  gap: 22px;
-}
-
-.col2 div {
-  width: 100%;
-}
-
 .info-mentor {
-  margin-top: 30px;
+  margin-top: 14px;
+}
+
+.line2 {
+  border-bottom: 1px solid #e6e6f0;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.info-mentor label {
+  margin: 32px 0 8px;
+}
+
+.info-mentor input {
+  margin-bottom: 32px;
+}
+
+.line3 {
+  border-bottom: 1px solid #e6e6f0;
+  width: 100%;
+  margin: 8px 0 32px;
 }
 
 legend.first {
   font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.info-clock label {
+  margin-bottom: 8px;
+}
+
+.info-clock input {
+  margin-bottom: 16px;
 }
 
 .col3 {
@@ -150,4 +180,14 @@ legend.first {
 
 .col3 > div:nth-child(3) {
   width: 140px;
+}
+
+footer {
+  height: 160px;
+  background: #535971;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 10px;
+}
+
+footer input {
 }
