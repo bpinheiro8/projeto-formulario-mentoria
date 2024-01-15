@@ -35,7 +35,7 @@ O projeto Formulário de Mentoria é uma pagina simples, para treino de HTML e C
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](<https://www.figma.com/file/6myPjnFXJELnribEA2xy6x/Explorer-(Copy)?type=design&node-id=16-106&mode=design&t=aOefddCRPyqxgnLV-0>). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](<https://www.figma.com/file/M64L3Z244LzJhK5swG0N0d/Stage-03---Formul%C3%A1rio-intermedi%C3%A1rio-(Copy)?type=design&node-id=3-4&mode=design&t=561FN5wRMe5006HT-0>). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
